@@ -10,7 +10,7 @@
 
 * [Descrição do Projeto](#descrição-do-projeto)
 
-    O repositorio trata de codigos usados para aprender o funcionamento da biblioteca react, usada para desenvolvimento web. Os exercicios estão alocados na pasta "Components"
+    O repositorio trata de codigos usados para aprender o funcionamento da biblioteca react, usada para desenvolvimento web. Os exercicios estão alocados na pasta "Components" https://github.com/Rubenscauan/DesenvolvimentoWeb/tree/aulas/src/components
 
 
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
