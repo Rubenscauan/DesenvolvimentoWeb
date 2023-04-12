@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.botao{
+  background-color: aqua;
+  font-family:'Times New Roman', Times, serif;
+  margin-left: 25px;
+  padding: 10px;
+}

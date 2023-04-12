@@ -1,10 +1,9 @@
 import './App.css';
-import ComponenteAvo from './components/exercicio3/Ex2/ComponenteAvo';
-
+import Tela from './components/exercicio3/EX1';
 function App() {
   return (
     <>
-      <ComponenteAvo/>
+      <Tela/>
     </>
   );
 }
