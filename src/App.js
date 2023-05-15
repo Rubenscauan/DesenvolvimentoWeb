@@ -1,9 +1,10 @@
 import './App.css';
-import Tela from './components/exercicio3/EX1';
+import MinhaPromise from './components/promises/MinhaPromise';
+
 function App() {
   return (
     <>
-      <Tela/>
+      <MinhaPromise/>
     </>
   );
 }
