@@ -1,0 +1,4 @@
+Questão 1 = 1.5
+Questão 2 = 2.5
+Questao 3 = 1.5
+Questao 4 = 2.5

@@ -1,10 +1,14 @@
 import './App.css';
-import MinhaPromise from './components/promises/MinhaPromise';
+import { Questao01X } from './components/AvaliaçãoParcial01/Questao01';
+import Questao02 from './components/AvaliaçãoParcial01/Questao02';
+
+import Questao03 from './components/AvaliaçãoParcial01/Questao03';
+
 
 function App() {
   return (
     <>
-      <MinhaPromise/>
+      <Questao03/>
     </>
   );
 }

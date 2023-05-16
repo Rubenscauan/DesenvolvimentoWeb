@@ -1,0 +1,11 @@
+    O UseState serve para armazenar os dados, ele
+que permite a criação de estado no componente através de função e 
+faz o gerenciamento do estado local do componente retorna um array como resultado. 
+Por isso, é possível fazermos uma desestruturação para receber partes desse retorno. 
+O array de retorno possui dois índices. por exemplo const [exemplo,setExemplo] = useState("")
+esses parametros servem para basicamente 1(definir a variavel ) 2(alterar a variavel).
+
+    O UseEffect serve para renderizar uma interface ou algo, ele atualiza a interface, 
+apos a requisição ser realizada, por exemplo apos apertar um botão e a interface ter que mudar,
+sem o UseEffect essa tela nao seria renderizada novamente. Caso queiramos renderizar a interface
+apenas uma vez, devemos usar um array[] vazio para que ele seja executado uma vez.
