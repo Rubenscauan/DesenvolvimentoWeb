@@ -1,14 +1,15 @@
 import './App.css';
-import { Questao01X } from './components/AvaliaçãoParcial01/Questao01';
-import Questao02 from './components/AvaliaçãoParcial01/Questao02';
-
-import Questao03 from './components/AvaliaçãoParcial01/Questao03';
+import MainPage from './components/MaterialUI/Crud/MainPage';
+import HomeToDo from './components/MaterialUI/ToDoList/HomeToDo';
+import { Principal } from './components/MaterialUI/ToDoList/Principal';
+//import Cadastro from './components/MaterialUI/Cadastro/Cadastro';
+//import Home from './components/MaterialUI/Crud/Menu';
 
 
 function App() {
   return (
     <>
-      <Questao03/>
+      <MainPage/>
     </>
   );
 }
