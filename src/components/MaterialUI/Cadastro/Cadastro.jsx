@@ -1,6 +1,18 @@
 import { Container, Typography, Box, TextField, Button, Link } from "@mui/material";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+const Cadastro = ()=> {
 
-const Cadastro=()=>{
+    const navigate = useNavigate() // usado para pular para a primeira a listagem
+    const [login, setLogin] = useState()
+    const [senha, setSenha] = useState()
+
+    const handleEntrar = (Login,Senha) =>{
+        if(Login == 'login' && Senha == '123')// nao consegui fazer no express entao fiz essa gambi
+            navigate("/listarAluno")
+        else //apenas pra mostrar a senha caso queira testar
+            alert('senha ou email errado obs: o correto é: login:login senha:123')
+    }
     return(
         <Container maxWidth="xs">
             <Box
@@ -25,6 +37,7 @@ const Cadastro=()=>{
                     name = "email"
                     autoComplete = "email"
                     autoFocus
+                    onChange={(event)=>{setLogin(event.target.value)}}
                 />
 
                 <TextField
@@ -35,6 +48,8 @@ const Cadastro=()=>{
                     label = "Senha"
                     name = "senha"
                     type = "password"
+                    onChange={(event)=>{setSenha(event.target.value)}}
+
                 />
 
                 <Button
@@ -42,6 +57,7 @@ const Cadastro=()=>{
                     fullWidth
                     variant = "contained"
                     sx = {{mt:3, mb: 2}}
+                    onClick={()=>{handleEntrar(login,senha)}}//chamada da função
                 >
                     Login
                 </Button>

@@ -82,6 +82,15 @@ export const MyMenuV1= () =>{
                     >
                         <Typography>Listar</Typography>
                     </MenuItem>
+
+                    <MenuItem //menu pro aluno aprovado
+                        onClick={handleCloseAlunoMenu}
+                        component={Link}
+                        to = "listarAlunoAprovado"
+                    >
+                        <Typography>Listar os Aprovados</Typography>
+                    </MenuItem>
+
                 </Menu>
             </Box>
         )
